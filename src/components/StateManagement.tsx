@@ -1,4 +1,5 @@
 import React, { useReducer } from 'react';
+import { Task } from './types'
 
 type TaskState = Task[];
 type TaskAction = { type: 'ADD_TASK'; task: Task } | { type: 'DELETE_TASK'; id: string };
